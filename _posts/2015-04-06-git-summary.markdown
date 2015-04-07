@@ -166,14 +166,16 @@ git init
 
 	git config  user.email johndoe@example.com
 
-
-
 	全局设置git帐号
 
 	git config --global user.name "John Doe"
 
 	git config --global user.email johndoe@example.com
 
+	去掉全局账号
+	git config --global --unset user.name 取消全局设置
+
+	git config --global --unset user.email 取消全局设置
 
 
 3.添加新文件
