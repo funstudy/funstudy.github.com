@@ -162,9 +162,9 @@ git init
 
 	当前目录设置git 帐号
 
-	git config user.name “BRYAN”
+	git config user.name "John Doe"
 
-	git config  user.email nyd111@qq.com
+	git config  user.email johndoe@example.com
 
 
 
