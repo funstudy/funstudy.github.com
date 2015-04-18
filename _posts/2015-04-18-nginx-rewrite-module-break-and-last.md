@@ -13,6 +13,7 @@ date:   2015-04-18 23:18:12
 * break：将rewrite后的地址在当前location标签中执行
 
 nginx官方解释：
+
 > * last：
 stops processing the current set of  ngx_http_rewrite_module directives followed by a search for a new location matching     
     the changed URI;
