@@ -11,3 +11,5 @@ url: "http://funstudy.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 permalink: /posts/:year/:month/:title
+
+highlighter: pygments
