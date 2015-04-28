@@ -13,3 +13,27 @@ markdown: kramdown
 permalink: /posts/:year/:month/:title
 
 highlighter: pygments
+
+exclude: [Makefile, Gemfile, Rakefile, README.md]
+
+gems:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - tags
+    - categories
+  layout: archive
+  layouts:
+    year: archive-year
+    month: archive-month
+    tag: archive-tag
+    category: category
+  permalinks:
+    year: '/archives/:year/'
+    month: '/archives/:year/:month/'
+    tag: '/archives/tag/:name/'
+    category: '/categories/:name/'
+
